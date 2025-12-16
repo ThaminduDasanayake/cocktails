@@ -11,7 +11,9 @@ const Cocktails = () => {
                 end: "bottom 80%",
                 scrub: true
             }
-        })
+        });
+
+        parallaxTimeline
             .from("#c-left-leaf", {x: -100, y: 100})
             .from("#c-right-leaf", {x: 100, y: 100});
     }, []);
